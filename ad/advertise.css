@@ -1,0 +1,231 @@
+/* generator by mobi */
+/* 导入全局方法 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #edede5;
+}
+main .wp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+main .page {
+  font-size: 1.92rem;
+  line-height: 8.5333rem;
+  text-align: center;
+}
+main .page1 {
+  position: relative;
+}
+main .page1 .banner {
+  width: 100%;
+  height: 4.1rem;
+}
+main .page1 .banner img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+main .page1 .desc {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2533rem 0.1333rem 0.0533rem;
+  width: 7.1467rem;
+  font-size: 0.4267rem;
+  line-height: 1.2;
+}
+main .page1 .desc .desc-title {
+  width: 3.7533rem;
+  border: 2px solid #bcdc77;
+  border-radius: 0.1333rem;
+  -webkit-boder-radius: 5px;
+  padding: 1px 0.08rem;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  background: #789c10;
+}
+main .page1 .desc .desc-content {
+  margin-top: 0.08rem;
+  margin-left: -0.12rem;
+  width: 8.2rem;
+  height: 3.3333rem;
+}
+main .page1 .desc .desc-content .work-exp-list {
+  border-left: 8px solid #ccc;
+  padding: 1px 0;
+  margin-left: 0.1rem;
+  text-align: left;
+}
+main .page1 .desc .desc-content .work-exp-list__point {
+  position: relative;
+  padding-left: 0.53rem;
+  margin: 0.2rem 0;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  font-weight: bolder;
+}
+main .page1 .desc .desc-content .work-exp-list__point__ico {
+  width: 0.48rem;
+  height: 0.48rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #3498db;
+  position: absolute;
+  left: -0.3233rem;
+  top: 0;
+}
+main .page1 .desc .desc-content .work-exp-list__company {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.5333rem;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header {
+  position: relative;
+  padding-left: 0;
+  line-height: 1;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.6667rem;
+  display: block;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__logo img {
+  width: 100%;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__title,
+main .page1 .desc .desc-content .work-exp-list__company__header__jobtitle {
+  display: inline-block;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__jobtitle:before {
+  content: '\2014\2014';
+  padding-right: 0.1067rem;
+}
+main .page1 .desc .desc-content .work-exp-list__company__body {
+  margin-top: 0.1067rem;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+main .page1 .desc .desc-content .work-exp-list__company__header__jobtitle {
+  color: #888;
+}
+main .page2,
+main .page3,
+main .page4,
+main .page5 {
+  position: relative;
+  background: #CCCC99;
+}
+main .page2 .banner,
+main .page3 .banner,
+main .page4 .banner,
+main .page5 .banner {
+  width: 100%;
+  height: 4.1rem;
+}
+main .page2 .banner img,
+main .page3 .banner img,
+main .page4 .banner img,
+main .page5 .banner img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+main .page2 .desc,
+main .page3 .desc,
+main .page4 .desc,
+main .page5 .desc {
+  padding: 0.3rem 0.3467rem 0;
+  width: 100%;
+  font-size: 0.3733rem;
+  line-height: 1.2;
+  text-align: left;
+}
+main .page2 .desc .qa,
+main .page3 .desc .qa,
+main .page4 .desc .qa,
+main .page5 .desc .qa {
+  padding-top: 0.3rem;
+}
+main .page2 .desc .qa .question,
+main .page3 .desc .qa .question,
+main .page4 .desc .qa .question,
+main .page5 .desc .qa .question {
+  padding: 0 0.3rem;
+  width: 100%;
+  height: 0.8467rem;
+  background: url(http://cdn1.showjoy.com/images/da/da72dee37a1e47438ca1385d8a0fdfde.png) repeat-x #9cb944;
+  font-size: 0.393rem;
+  line-height: 0.8467rem;
+  font-weight: bolder;
+  color: #fff;
+}
+main .page2 .desc .qa .answer,
+main .page3 .desc .qa .answer,
+main .page4 .desc .qa .answer,
+main .page5 .desc .qa .answer {
+  padding: 0.3rem 0.4rem;
+  width: 100%;
+  margin-top: 0.4rem;
+  font-size: 0.26rem;
+  line-height: 0.7467rem;
+  color: #515151;
+  background: #eeeeee;
+}
+/* 箭头 */
+@-webkit-keyframes start {
+  0%,
+  30% {
+    opacity: 0.2;
+    -webkit-transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0.2;
+    -webkit-transform: translate(0, -5px);
+  }
+}
+@keyframes start {
+  0%,
+  30% {
+    opacity: 0.2;
+    transform: translate(0, 10px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0.2;
+    transform: translate(0, -5px);
+  }
+}
+.start {
+  position: absolute;
+  left: 50%;
+  margin-left: -0.4533rem;
+  top: 95%;
+  margin-top: -0.9067rem;
+  width: 0.9067rem;
+  height: 0.9067rem;
+}
+.start img {
+  position: absolute;
+  left: 50%;
+  top: 0.2667rem;
+  margin-left: -0.24rem;
+  -webkit-animation: start 1.5s infinite ease-in-out;
+  animation: start 1.5s infinite ease-in-out;
+}
